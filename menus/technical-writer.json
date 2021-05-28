@@ -1,0 +1,50 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "VK: Add Conditional Tags",
+        "command": "technical-writer:addConditionalTag"
+      },
+      {
+        "label": "VK: Convert to Hyperlink",
+        "command": "technical-writer:convertTextToLink"
+      },
+      {
+        "label": "VK: Duplicate Line",
+        "command": "technical-writer:duplicateLine"
+      },
+      {
+        "label": "VK: Add Page Break",
+        "command": "technical-writer:addPageBreak"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "V-Key Technical Writer",
+          "submenu": [
+            {
+              "label": "Add Conditional Tag",
+              "command": "technical-writer:addConditionalTag"
+            },
+            {
+              "label": "Convert to Hyperlink",
+              "command": "technical-writer:convertTextToLink"
+            },
+            {
+              "label": "Duplicate Line",
+              "command": "technical-writer:duplicateLine"
+            },
+            {
+              "label": "VK: Add Page Break",
+              "command": "technical-writer:addPageBreak"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

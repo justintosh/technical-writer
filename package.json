@@ -1,0 +1,26 @@
+{
+    "name": "technical-writer",
+    "main": "./lib/technical-writer",
+    "version": "0.0.0",
+    "description": "The shortcuts that are frequently used by technical writers.",
+    "keywords": [
+        "technical writer",
+        "shortcut",
+        "markdown"
+    ],
+    "activationCommands": {
+        "atom-text-editor": [
+            "technical-writer:addConditionalTag",
+            "technical-writer:convertTextToLink",
+            "technical-writer:duplicateLine",
+            "technical-writer:addPageBreak"
+        ]
+    },
+    "repository": "https://github.com/justintosh/technical-writer.git",
+    "author": "Justintosh",
+    "license": "MIT",
+    "engines": {
+        "atom": ">=1.0.0 <2.0.0"
+    },
+    "dependencies": {}
+}

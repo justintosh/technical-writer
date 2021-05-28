@@ -1,0 +1,8 @@
+{
+  "atom-workspace": {
+    "ctrl-alt-shift-t": "technical-writer:addConditionalTag",
+    "ctrl-alt-shift-h": "technical-writer:convertTextToLink",
+    "ctrl-alt-shift-d": "technical-writer:duplicateLine",
+    "ctrl-alt-shift-p": "technical-writer:addPageBreak"
+  }
+}
